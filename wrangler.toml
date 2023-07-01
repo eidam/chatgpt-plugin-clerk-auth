@@ -1,0 +1,7 @@
+name = "chatgpt-plugin-clerk"
+compatibility_date = "2023-01-01"
+main = "src/index.ts"
+
+# configure plugin's domain
+workers_dev = false
+route = { pattern = "chatgpt-plugin-clerk.eidam.dev", custom_domain = true }
